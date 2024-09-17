@@ -1,5 +1,5 @@
 import React,{useState} from 'react'
-import './Stylings/page.css'
+import './Stylings/Page.css'
 import Fruits from './Fruits'
 
 export default function Register() {

@@ -1,5 +1,5 @@
 import React from 'react'
-import './Stylings/page.css'
+import './Stylings/Page.css'
 
 export default function Contact() {
   return (

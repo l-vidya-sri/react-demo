@@ -1,5 +1,5 @@
 import React,{useEffect,useState} from 'react'
-import './Stylings/page.css'
+import './Stylings/Page.css'
 import axios from 'axios'
 export default function Home() {
   const [doctor,setDoctor]=useState([])
