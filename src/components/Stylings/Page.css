@@ -1,0 +1,54 @@
+.container{
+    font-size: 2rem;
+    text-align: center;
+    width: 30%;
+    border: 1px solid black;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0,0.6);
+}
+.form-body{
+    border: 1px solid black;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0,0.6);
+    width: 30%;
+    margin-left: 55%;
+    font-size: 1.5rem;
+    padding: 2%;
+}
+.form-body button{
+    padding: 2%;
+    width: 25%;
+    background-color: rgb(91, 91, 168);
+    border: 1px solid white;
+    color: white;
+    border-radius: 25px;
+}
+.patient-container{
+    font-size: 2rem;
+    text-align: center;
+    background-image: url("https://media.istockphoto.com/id/1274833939/photo/top-view-of-medical-history-form-in-clipboard-stethoscope-and-other-stuff.jpg?s=612x612&w=0&k=20&c=RPRt-Prr9IDQaQLTlbB3mLTOLGPt4v4ULlex5jA9iUk=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 92vh;
+    margin-top: -4%;
+}
+.home-container{
+    background-color: whitesmoke;
+    min-height: 100vh;
+    margin-top: -2%;
+}
+.home-container h1{
+    font-size: 2.5rem;
+    text-align: center;
+}
+.doctorDetails{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap: 7px;
+
+}
+.doctorDetails-child{
+    box-shadow: 0px 3px 6px rgba(0, 0, 0,0.6);
+    text-align: center;
+    padding: 10%;
+    font-size: 1.2rem;
+    background-color: white;
+}
