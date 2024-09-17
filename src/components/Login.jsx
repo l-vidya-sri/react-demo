@@ -1,5 +1,5 @@
 import React,{useState} from 'react'
-import './Stylings/page.css'
+import './Stylings/Page.css'
 import Button from '@mui/material/Button';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
